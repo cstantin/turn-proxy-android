@@ -95,7 +95,7 @@ fun AboutScreen(onBack: () -> Unit) {
                         SettingsEntryRow(
                             iconRes = R.drawable.code_24px,
                             title = stringResource(R.string.android_client),
-                            subtitle = "/turn-proxy-android",
+                            subtitle = "cstantin/turn-proxy-android",
                             trailingRes = R.drawable.open_in_new_24px,
                             trailingTint = MaterialTheme.colorScheme.primary,
                             onClick = { open("https://github.com/cstantin/turn-proxy-android") }
